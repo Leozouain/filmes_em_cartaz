@@ -166,3 +166,23 @@ span{
     visibility: visible;
 }
 
+@media (max-width:1112px ){
+    body{
+        background-color: rgb(212, 212, 212);
+    }
+
+    
+
+    
+}
+
+@media (max-width: 550px){
+    .total{
+        font-size: 25px;
+    }
+
+    .grid{
+        padding: 35px;
+        grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+    }
+}
